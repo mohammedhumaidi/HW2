@@ -1,46 +1,55 @@
+a{
+    color: yellow;
+}
+
 body{
         background-image: url("silverware.jpg");
         background-repeat: repeat;
 
 }
-h1, h4{
-    text-decoration: underline;
-    color: yellow;
-    text-align: center;
-    font-family: sans-serif;
-    background-color: lightgray;
-}
-h2{
-    text-decoration: underline;
-    color: yellow;
-    text-align: left;
-    font-family: sans-serif;
-    background-color: lightgray;
-}
-#det{
-    text-transform: uppercase;
-    border-spacing: 300px;
-    color: sandybrown;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-#short{
-    text-decoration: underline;
-}
-ul{
-    list-style-image: url("fish_icon_24.png");
-}
-#header{
-   font-weight: bold;
-}
+
 dt{
     background-color: aqua;
 }
-#comment{
+
+h1, h4{
+    background-color: lightgray;
+    color: yellow;
+    font-family: sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2{
+    background-color: lightgray;
+    color: yellow;
+    font-family: sans-serif;
+    text-align: left;
+    text-decoration: underline;
+}
+
+ul{
+    list-style-image: url("fish_icon_24.png");
+}
+
+.comment{
     font-style: italic;
     margin-left: 40px;
     background-color: lightgoldenrodyellow;
 }
-a{
-    color: yellow;
+
+.det{
+    border-spacing: 300px;
+    color: sandybrown;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+
+.header{
+   font-weight: bold;
+}
+
+.short{
+    text-decoration: underline;
 }
